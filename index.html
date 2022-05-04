@@ -1,0 +1,185 @@
+<!--
+    Progetto Web Development Learnn
+    Roberto Vanzetta
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!-- definisce il set di caratteri -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- istruisce i browser più vecchi -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- imposta la visualizzazione da parte del device -->
+    <title>Document</title>
+
+    <!-- collegamento da Google Font - ricordarsi di inserire il riferimento nel body CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header class="header">     <!-- costruisco l'header e il menu -->
+                <div class="container header-container">
+                    <div class="logo"><a href="#" class="logo">Roy Riddle</a></div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    </header>
+
+    <section class="hero">
+                <div class="container hero-content">
+                    <h1>Hi, I'm <br> Roy Riddle</h1>
+                    <h3>Street Photographer <br> based in Milan</h3>
+                    <a class="hero-cta" href="#works">Discover My Works</a>         
+                </div>  
+    </section>             
+
+    <section class="works-menu">
+        <div class="container">
+            <ul>
+                <li><a class="button" href="#through-glass">Through the glass</a></li> <!-- basta aggiungere la class button per visualizzarli come li ho impostati nel css -->
+                <li><a class="button" href="#neon-lights">Neon light</a></li>
+                <li><a class="button" href="#light-trials">Light trials</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Section Works -->
+    <section class="works">
+        <a class="anchors" id="works"></a>
+        <div class="container">
+
+            <!-- Work Item 1 -->    
+            <div class="works-item">
+                <a class="anchors" id="through-glass"></a>
+                <div class="works-item-tags">Street Photographer \ London \ 2020</div>
+                <h2>Through the glass</h2>
+
+                <div class="work-info">
+                    <div class="work-info-label">About</div>
+                    <div class="work-info-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo modi delectus ipsam dolor nulla? Libero optio temporibus nemo repellendus perspiciatis?</p>    
+                    </div>
+                </div>    
+
+                <div class="work-info">
+                        <div class="work-info-label">Output</div>
+                        <div class="work-info-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis temporibus est error modi asperiores, nam debitis hic pariatur eligendi provident dolore exercitationem cum obcaecati similique ipsa labore sed architecto laborum eaque officia quo quibusdam mollitia illo impedit. Saepe, impedit id.</p>
+                        </div>
+                </div>
+
+                <div class="images">
+                    <img class="image-right" src="images/115.jpg" alt="">
+                    <img class="image-left" src="images/122.jpg" alt="">
+                    <img src="images/118.jpg" alt="">
+                </div>
+            </div>
+            <!-- Work Item 1 -->    
+
+            <!-- Work Item 2 -->
+            <div class="works-item">
+                <a class="anchors" id="neon-lights"></a>
+                <div class="works-item-tags">Street Photographer \ Hong Kong \ 2019</div>
+                <h2>Neon lights</h2>
+
+                <div class="work-info">
+                    <div class="work-info-label">About</div>
+                    <div class="work-info-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo modi delectus ipsam dolor nulla? Libero optio temporibus nemo repellendus perspiciatis?</p>    
+                    </div>
+                </div>    
+
+                <div class="work-info">
+                        <div class="work-info-label">Output</div>
+                        <div class="work-info-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis temporibus est error modi asperiores, nam debitis hic pariatur eligendi provident dolore exercitationem cum obcaecati similique ipsa labore sed architecto laborum eaque officia quo quibusdam mollitia illo impedit. Saepe, impedit id.</p>
+                        </div>
+                </div>
+
+                <div class="images">
+                    <img class="image-right" src="images/243.jpg" alt="">
+                    <img class="image-left" src="images/325.jpg" alt="">
+                    <img src="images/812.jpg" alt="">
+                </div>
+            </div>
+            <!-- Work Item 2 -->    
+
+            <!-- Work Item 3-->
+            <div class="works-item">
+                <a class="anchors" id="light-trials"></a>
+                <div class="works-item-tags">Street Photographer \ Rome \ 2017</div>
+                <h2>Light trials</h2>
+
+                <div class="work-info">
+                    <div class="work-info-label">About</div>
+                    <div class="work-info-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo modi delectus ipsam dolor nulla? Libero optio temporibus nemo repellendus perspiciatis?</p>    
+                    </div>
+                </div>    
+
+                <div class="work-info">
+                        <div class="work-info-label">Output</div>
+                        <div class="work-info-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis temporibus est error modi asperiores, nam debitis hic pariatur eligendi provident dolore exercitationem cum obcaecati similique ipsa labore sed architecto laborum eaque officia quo quibusdam mollitia illo impedit. Saepe, impedit id.</p>
+                        </div>
+                </div>
+
+                <div class="images">
+                    <img class="image-left" src="images/122.jpg" alt="">
+                    <img class="image-right" src="images/115.jpg" alt="">
+                    <img src="images/118.jpg" alt="">
+                </div>
+            </div>
+            <!-- Work Item 3 -->    
+        </div>
+    </section>
+    <!-- Section Works -->
+
+    <!-- Section Contacts-->
+    <section id="contacts" class="contacts">
+        <div class="container contacts-content">
+            <div class="contacts-about">
+                <h2>About me</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quasi alias eius sit ipsa debitis maiores reiciendis, aperiam molestias modi.</p>
+            </div>
+            <div class="contacts-form">
+                <form name="contacts" netlify>
+                    <label class="input-label" for="">Full Name</label>
+                    <input class="input-field" type="text" name="fullname" placeholder="Name Surname"  required>
+
+                    <label class="input-label" for="">E-mail</label>
+                    <input class="input-field" type="email" name="email" placeholder="esempio@email.com" required>
+
+                    <label class="input-label" for="">Subject</label>
+                    <input class="input-field" type="text" name="subject" placeholder="Example Subject" required>
+
+                    <label class="input-label" for="">Message <span>Optional</span></label>
+                    <textarea class="input-textarea" name="message" placeholder="Write here" maxlength="50">Buongiorno, vorrei essere contattato</textarea>
+
+                    <button class="button" type="submit">Send</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <!-- Section Contacts-->
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright">Roy Riddle copyright © 2021</div>
+        </div>
+    </footer>
+
+</body>
+</html>
