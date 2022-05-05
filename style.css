@@ -304,6 +304,13 @@ section {                   /*serve per avere spazio fra le section*/
     top: -110px;
 }
 
+@media screen and (max-width: 576px) {
+    .anchors {
+    visibility: hidden;
+    position: relative;
+    top: -130px;
+    }
+}
 .back-to-top {
     background-image: url('images/115.jpg');
     height: 30px;
