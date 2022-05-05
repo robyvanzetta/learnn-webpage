@@ -303,3 +303,15 @@ section {                   /*serve per avere spazio fra le section*/
     position: relative;
     top: -110px;
 }
+
+.back-to-top {
+    background-image: url('images/115.jpg');
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
